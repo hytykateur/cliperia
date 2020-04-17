@@ -1,0 +1,25 @@
+{
+  "name": "cliperia",
+  "version": "1.0.0",
+  "description": "Converter using ffmpeg lib",
+  "main": "index.js",
+  "bin": "app.js",
+  "scripts": {
+    "start": "qode app.js",
+    "build": "npx nodegui-packer --pack ."
+  },
+  "author": "hytykateur",
+  "license": "ISC",
+  "dependencies": {
+    "@nodegui/nodegui": "^0.19.0",
+    "clipboard-event": "^1.0.1",
+    "clipboardy": "^2.3.0",
+    "ffmpeg": "0.0.4",
+    "mime-types": "^2.1.26",
+    "qode": "^0.1.0",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
